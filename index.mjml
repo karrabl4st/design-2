@@ -1,0 +1,112 @@
+<mjml>
+    <mj-head>
+        <mj-title>
+            Design 2
+        </mj-title>
+        <mj-preview>
+
+        </mj-preview>
+        <mj-style>
+            @media (max-width: 300px) {
+                .utd-col {
+                    width: 100% !important;
+                }
+                .utd-logo {
+                    text-align: center !important;
+                }
+                .utd-text {
+                    text-align: center !important;
+                }
+                @supports (-moz-appearance: none) {
+                    .utd-logo {
+                        text-align: -moz-center !important;
+                    }
+                    .utd-text {
+                        text-align: -moz-center !important;
+                    }
+                }
+            }
+            .utd-logo {
+                min-width: 50px !important;
+            }
+            .text {
+                padding-top: 0 !important;
+                padding-bottom: 0 !important;
+                padding-left: 30px !important;
+            }
+            .button {
+                box-shadow: 0 5px 5px;
+            }
+        </mj-style>
+    </mj-head>
+    <mj-body background-color="#d3d3d3">
+        <mj-wrapper padding="5px" background-color="#ffffff">
+            <mj-section padding="0" padding-top="10px" padding-bottom="10px" background-color="#3a8349">
+                <mj-group>
+                    <mj-column css-class="utd-col" width="45%">
+                        <mj-image css-class="utd-logo" align="right" width="50px" src="https://utdallas.box.com/shared/static/brptauy957eyoj3rprz2l25c1kuobg39.png" alt="UTD Logo" title="UTD Logo" />
+                    </mj-column>
+                    <mj-column css-class="utd-col" width="55%" padding="0">
+                        <mj-text css-class="utd-text" padding-top="28.5px" padding-bottom="28.5px" padding-left="0"  padding-right="0" color="#ffffff" font-family="Helvetica, sans-serif" font-size="16px">
+                            UT Dallas Profiles
+                        </mj-text>
+                    </mj-column>
+                </mj-group>
+            </mj-section>
+            <mj-section padding-top="40px" padding-bottom="0">
+                <mj-column>
+                    <mj-text css-class="text" font-family="Helvetica, sans-serif" font-size="12px">
+                        <b>Dear Test User,</b>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-section padding-bottom="0">
+                <mj-column>
+                    <mj-text css-class="text" font-family="Helvetica, sans-serif" font-size="12px">
+                        <b>10</b> undergraduate students have expressed interest in working with you for the <b>Summer 2022</b> semester.
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-section>
+                <mj-column>
+                    <mj-text css-class="text" font-family="Helvetica, sans-serif" font-size="12px">
+                        If you would like to review these undergraduate student research applications, please visit the following page. On this page, you will also be able to delegate review of the applications to another person or indicate if you're not accepting students.
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-section padding-top="0" padding-bottom="30px">
+                <mj-column width="75%">
+                    <mj-button border-radius="0" padding="0" background-color="#3a8349">
+                        <mj-text font-family="Helvetica, sans-serif" padding="0">
+                            Review Undergraduate Student Research Applications →
+                        </mj-text>
+                    </mj-button>
+                </mj-column>
+            </mj-section>
+            <mj-section padding-top="0" padding-bottom="0" padding-left="5px" padding-right="5px">
+                <mj-column>
+                    <mj-divider padding-top="0" border-width="2px" />
+                </mj-column>
+            </mj-section>
+            <mj-section padding-top="0">
+                <mj-column>
+                    <mj-text css-class="text" font-family="Helvetica, sans-serif">
+                        This is an automated message from the <a href="">UT Dallas Profiles</a> website.
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-section padding-left="0" padding-right="0" padding-bottom="0">
+                <mj-column>
+                    <mj-divider border-color="#7ebc45" border-width="10px" padding-left="0" padding-right="0" padding-bottom="0" />
+                </mj-column>
+            </mj-section>
+            <mj-section background-color="#898179">
+                <mj-column>
+                    <mj-text color="#ffffff" font-family="Helvetica, sans-serif" font-size="12px">
+                        Questions? <a href="" style="color: #ffffff;">Check our FAQ</a> or <a href="" style="color: #ffffff;">contact us.</a> | <a href="" style="color: #ffffff;">The University of Texas at Dallas</a> | <a href="" style="color: #ffffff">Office of Research</a>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+    </mj-body>
+</mjml>
