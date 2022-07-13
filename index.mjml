@@ -76,7 +76,7 @@
             </mj-section>
             <mj-section padding-top="0" padding-bottom="30px">
                 <mj-column width="75%">
-                    <mj-button border-radius="0" padding="0" background-color="#3a8349">
+                    <mj-button href="#" border-radius="0" padding="0" background-color="#3a8349">
                         <mj-text font-family="Helvetica, sans-serif" padding="0">
                             Review Undergraduate Student Research Applications →
                         </mj-text>
