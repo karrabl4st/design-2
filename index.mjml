@@ -37,11 +37,14 @@
             .button {
                 box-shadow: 0 5px 5px;
             }
+            .footer {
+                height: 100%; 
+            }
         </mj-style>
     </mj-head>
     <mj-body background-color="#d3d3d3">
         <mj-wrapper padding="5px" background-color="#ffffff">
-            <mj-section padding="0" padding-top="10px" padding-bottom="10px" background-color="#3a8349">
+            <mj-section css-class="utd" padding="0" padding-top="10px" padding-bottom="10px" background-color="#3a8349">
                 <mj-group>
                     <mj-column css-class="utd-col" width="45%">
                         <mj-image css-class="utd-logo" align="right" width="50px" src="https://utdallas.box.com/shared/static/brptauy957eyoj3rprz2l25c1kuobg39.png" alt="UTD Logo" title="UTD Logo" />
@@ -100,7 +103,7 @@
                     <mj-divider border-color="#7ebc45" border-width="10px" padding-left="0" padding-right="0" padding-bottom="0" />
                 </mj-column>
             </mj-section>
-            <mj-section background-color="#898179">
+            <mj-section css-class="footer" background-color="#898179">
                 <mj-column>
                     <mj-text color="#ffffff" font-family="Helvetica, sans-serif" font-size="12px">
                         Questions? <a href="" style="color: #ffffff;">Check our FAQ</a> or <a href="" style="color: #ffffff;">contact us.</a> | <a href="" style="color: #ffffff;">The University of Texas at Dallas</a> | <a href="" style="color: #ffffff">Office of Research</a>
